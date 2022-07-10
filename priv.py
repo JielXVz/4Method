@@ -146,7 +146,7 @@ def run7():
             print(i +"\033[91m Attack To \033[97m{} \033[91mPort \033[91m{}".format(ip,port))
         except:
             s.close()
-            print("\033[91m[•] Attack To \033[97m{} \033[91mPort \033[91m{}".format(ip,port))")
+            print("\033[91m[•] Attack To \033[97m{} \033[91mPort \033[91m{}".format(ip,port))
 
 def spoofer():
     addr = [192, 168, 0, 1]
